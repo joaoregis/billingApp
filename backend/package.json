@@ -1,0 +1,26 @@
+{
+  "name": "billing-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name billing-app-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^5.0.0",
+    "body-parser": "^1.15.2",
+    "lodash": "^4.17.4",
+    "mongoose-paginate": "^5.0.3",
+    "express-query-int": "^1.0.1",
+    "node-restful": "^0.2.5",
+    "pm2": "^2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
